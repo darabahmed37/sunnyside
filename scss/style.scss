@@ -1,0 +1,167 @@
+@import "./defaults";
+header {
+  background: url("../images/desktop/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+  width: 100%;
+  .content {
+    margin: 0 auto;
+    position: relative;
+    top: 2.5em;
+
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    nav ul {
+      font-size: 20px;
+      position: relative;
+
+      display: flex;
+      a {
+        transition: all 0.5s;
+        color: white;
+        margin: 0 5px;
+        padding: 3px 5px;
+        &:hover {
+          border-radius: 15px;
+          background-color: #0883c0;
+        }
+      }
+    }
+  }
+}
+.arrow {
+  text-align: center;
+  margin-top: 2em;
+  h1 {
+    margin-bottom: 1em;
+    color: white;
+  }
+  font-size: 45px;
+}
+#services {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  h1 {
+    color: #4a4b5e;
+  }
+  .class {
+    background-size: cover;
+
+    height: 450px;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      text-align: center;
+      font-size: 46px;
+    }
+    p {
+      padding: 45px;
+      color: #787887;
+      font-size: 19px;
+    }
+    a {
+      padding: 45px;
+      text-decoration: underline;
+    }
+  }
+  .class h1,
+  .class p {
+    color: black;
+  }
+  .class h1 {
+    margin-top: 7em;
+  }
+}
+#class-1 {
+  background-image: url("../images/desktop/image-transform.jpg");
+}
+#class-3 {
+  background-image: url("../images/desktop/image-stand-out.jpg");
+}
+#class-4 {
+  background-image: url("../images/desktop/image-photography.jpg");
+}
+#class-5 {
+  background-image: url("../images/desktop/image-graphic-design.jpg");
+}
+#client {
+  h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 16px;
+    color: #4a4b5e;
+  }
+
+  .test {
+    padding: 50px;
+    p {
+      text-align: center;
+      color: #787887;
+    }
+    img {
+      border-radius: 100px;
+      text-align: center;
+      display: block;
+      margin: auto;
+      padding: 15px;
+    }
+  }
+
+  .opinion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.space {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+strong {
+  color: black;
+}
+#images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  div {
+    height: 60vh;
+    z-index: 400;
+  }
+}
+.img-1 {
+  background-image: url("../images/desktop/image-gallery-cone.jpg");
+  background-size: cover;
+}
+.img-2 {
+  background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+  background-size: cover;
+}
+.img-3 {
+  background-image: url("../images/desktop/image-gallery-orange.jpg");
+  background-size: cover;
+}
+.img-4 {
+  background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
+  background-size: cover;
+}
+footer {
+  h1 {
+    color: #4a4b5e;
+    text-align: center;
+    font-size: 50px;
+  }
+  p {
+    text-align: center;
+    color: #787887;
+    font-size: 25px;
+  }
+  height: 30vh;
+  background-color: #4fbfa7;
+}
